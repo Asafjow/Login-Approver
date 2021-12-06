@@ -22,6 +22,6 @@ VPE Flow :
 
 5.If approveג - an array set to allow- the VPE will continue to allow access.
 
-    VPE- block "expr { [mcget {session.custom.approved_login}] == "true"}"
+  ![](VPE-check if approved.png)
 
 
