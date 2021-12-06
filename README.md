@@ -14,7 +14,7 @@ Note: this is done by local user DB , can be adjust to AD or other remote authen
 
 ![](VPE-Flow-Login-Approver.png)
 
-1. The user lan on the login page
+1. The user laning on the login page.
 2. The user authenticate to local DB ( can be remote server)
 3. Once Successful login -> the user wait for approval 
   3.1 while the user wait for approval - the F5  , We create a variable GUID for the sesssion with the user details.
