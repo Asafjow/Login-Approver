@@ -22,6 +22,6 @@ VPE Flow :
 
 5.If approveג - an array set to allow- the VPE will continue to allow access.
 
-  ![](VPE-check if approved.png)
+  ![](VPE-check%20if%20approved%20.png)
 
 
