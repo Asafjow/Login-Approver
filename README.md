@@ -17,9 +17,9 @@ Note: this is done by local user DB , can be adjust to AD or other remote authen
 1. The user laning on the login page.
 2. The user authenticate to local DB ( can be remote server)
 3. Once Successful login -> the user wait for approval 
-  3.1 while the user wait for approval - the F5  , We create a variable GUID for the sesssion with the user details.
-  3.2 An email\SMS can be send to the aproval with link for the user+Guid unique page.
-  3.3 An Irule monitor the array for approve/deny
+  - while the user wait for approval - the F5  , We create a variable GUID for the sesssion with the user details.
+  - An email\SMS can be send to the aproval with link for the user+Guid unique page.
+  - An Irule monitor the array for approve/deny
 4.The apporval person click on the link ( separate VS with an Irule) for approval/Deny.
 
 5.If approved - an array set to allow- the VPE will continue to allow access.
