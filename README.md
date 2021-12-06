@@ -1,5 +1,7 @@
 ####  F5 APM login with Login-Approver ####
-use case 
+
+ ## use case flow ## 
+ 
 1. External user login via the F5, the F5 pull the approver number and send SMS .
 2. The approver got a link to a page to approve the external user 
 3. The approver click Approve for allowing the VPN/Portal access 
@@ -8,7 +10,7 @@ Note: this is done by local user DB , can be adjust to AD or other remote authen
 
 ![](Login_Approver_Flow.png)
 
-VPE Flow : 
+ ## VPE Flow : ## 
 
 ![](VPE-Flow-Login-Approver.png)
 
@@ -20,7 +22,7 @@ VPE Flow :
   3.3 An Irule monitor the array for approve/deny
 4.The apporval person click on the link ( separate VS with an Irule) for approval/Deny.
 
-5.If approveג - an array set to allow- the VPE will continue to allow access.
+5.If approved - an array set to allow- the VPE will continue to allow access.
 
   ![](VPE-check%20if%20approved%20.png)
 
